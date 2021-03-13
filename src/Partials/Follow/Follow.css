@@ -1,0 +1,26 @@
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-left: 2px;
+}
+.social{
+    margin-top: 200px;
+}
+.social>p{
+    margin-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    transition: all 1s;
+}
+.social>p:hover{
+    padding-top:0px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.social_margin{
+    height: 35vh;
+    border-left:1px solid var(--text2) ;
+}

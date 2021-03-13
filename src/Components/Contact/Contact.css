@@ -1,0 +1,80 @@
+.contact {
+	text-align: center;
+	margin: 150px auto;
+	margin-bottom: 350px;
+}
+.one {
+	font-size: 1rem;
+	color: var(--text1);
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+.two {
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid var(--text3);
+	display: inline-block;
+}
+.contact__middle > p {
+	font-size: 1.5rem;
+	font-weight: 200;
+	width: 70%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	letter-spacing: 1.5px;
+}
+.btn__contact {
+	padding: 12px 10px;
+	font-size: 1.3rem;
+	color: var(--text);
+	background-color: inherit;
+	box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+	border: none;
+	border-radius: 10px;
+	border: 1px solid var(--text1);
+	transition: 1s all;
+}
+.btn__contact:hover {
+	background-color: var(--text);
+	color: var(--main);
+	text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+	cursor: pointer;
+}
+
+
+/* Media Query */
+@media screen and (max-width:320px) {
+	.contact__middle > p {
+		font-size: 1rem;
+		width: 100%;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.contact__middle > p {
+		font-size: 1.1rem;
+		width: 100%;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.contact__middle > p {
+		font-size: 1.1rem;
+		width: 100%;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.contact__middle > p {
+		font-size: 1.1rem;
+		width: 98%;
+		padding-right: 5px;
+	}
+}

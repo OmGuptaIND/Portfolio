@@ -1,0 +1,52 @@
+.hams{
+    background-color: var(--main) !important;
+}
+.hamburger{
+    background-color: var(--main) !important;
+}
+.drawer{
+    padding-top: 120px;
+    
+}
+.MuiDrawer-paper{
+    width: 25% !important;
+    background-color: var(--main) !important;
+    text-align: center;
+    color: white !important;
+    font-size: 1.2rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.drawer__wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    align-items: center;
+}
+.drawer__options{
+    display: flex;
+    flex-direction: column;
+
+}
+.drawer__op{
+    font-size: 1.5rem;
+}
+.drawer__option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.drawer__option{
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    font-family: 'Turret Road', cursive;
+    color: var(--text);
+    cursor: pointer;
+}
+.drawer__res{
+    font-weight: bold;
+}

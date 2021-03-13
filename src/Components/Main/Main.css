@@ -1,0 +1,41 @@
+.main{
+    margin-left: 5px;
+}
+.view{
+    margin-bottom: 360px;
+}
+.copy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	color: var(--text1);
+	margin-bottom: 20px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	cursor: default;
+}
+.copy__name {
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+	padding-bottom: 1px;
+}
+.copy__name:hover {
+	padding-bottom: 2px;
+}
+@media screen  and (max-width:320px){
+    .view{
+        margin-bottom: 240px;
+    }
+}
+@media screen  and (max-width:375px){
+    .view{
+        margin-bottom: 240px;
+    }
+}
+@media screen  and (max-width:425px){
+    .view{
+        margin-bottom: 240px;
+    }
+}

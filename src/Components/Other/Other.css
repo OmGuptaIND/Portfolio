@@ -1,0 +1,24 @@
+.other__head {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.other__head > p {
+	margin-bottom: -15px;
+}
+.other__head > small {
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: 2s all;
+}
+.other__head > small:hover {
+	border-bottom: 1px solid var(--text);
+}
+.other__data {
+	display: inline-block;
+    align-items: center;
+    text-align: center;
+}

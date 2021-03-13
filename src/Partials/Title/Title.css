@@ -1,0 +1,42 @@
+.title{
+    display: flex;
+    margin-bottom: 30px;
+}
+.title>p{
+    font-size: 2.8rem;
+    font-family: 'Turret Road', cursive;
+    font-weight: bold;
+}
+.title__margin{
+    border-top:1px solid white;
+    width: 55%;
+    transform: translateY(25px);
+    margin-left: 20px;
+}
+@media screen and (max-width:500px) {
+    .title>p{
+        font-size: 2.5rem;
+        font-family: 'Turret Road', cursive;
+        font-weight: bold;
+    }
+    .title__margin{
+        border-top:1px solid white;
+        width: 45%;
+        transform: translateY(25px);
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:383px) {
+    .title>p{
+        font-size: 1.8rem;
+        font-family: 'Turret Road', cursive;
+        font-weight: bold;
+    }
+    .title__margin{
+        border-top:1px solid white;
+        width: 45%;
+        transform: translateY(25px);
+        margin-left: 20px;
+    }
+    
+}
