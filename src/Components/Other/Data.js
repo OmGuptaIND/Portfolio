@@ -1,15 +1,16 @@
 const data = [
 	{
-		id: "q",
+		id: Math.random().toString(),
 		title: "Integrated Payment Ecom Website",
 		desc:
 			"A Simple Ecommerce website with diverse and modern PayPal Integration with Checkout, Store, and much more ",
 		tech: ["Django", "Postrges", "JavaScript", "PayPal"],
 		git_link: "",
 		demo_link: "",
+		imgURL:"",
 	},
 	{
-		id: "w",
+		id: Math.random().toString(),
 
 		title: "Integrated Payment Ecom Website",
 		desc:
@@ -19,7 +20,7 @@ const data = [
 		demo_link: "",
 	},
 	{
-		id: "e",
+		id: Math.random().toString(),
 		title: "Integrated Payment Ecom Website",
 		desc:
 			"A Simple Ecommerce website with diverse and modern PayPal Integration with Checkout, Store, and much more ",
@@ -28,7 +29,7 @@ const data = [
 		demo_link: "",
 	},
 	{
-		id: "r",
+		id: Math.random().toString(),
 		title: "Integrated Payment Ecom Website",
 		desc:
 			"A Simple Ecommerce website with diverse and modern PayPal Integration with Checkout, Store, and much more ",
@@ -37,7 +38,7 @@ const data = [
 		demo_link: "",
 	},
 	{
-		id: "t",
+		id: Math.random().toString(),
 		title: "Integrated Payment Ecom Website",
 		desc:
 			"A Simple Ecommerce website with diverse and modern PayPal Integration with Checkout, Store, and much more ",

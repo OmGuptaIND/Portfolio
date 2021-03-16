@@ -1,12 +1,19 @@
-import React from "react";
 import Image from "../../images/pic.PNG";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
+import { ExternalLink } from "react-external-link";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+
 
 export default function Card({ item, index }) {
+	const Styles = {
+		link:{
+			color:"inherit"
+		}
+	}
 	return (
 		<div className='pr' id={index % 2 === 0 && "pr-left"}>
-			<img src={Image} alt='err' />
+			<img src={item?.imgURL} alt='err' />
 
 			<div className='pr-data'>
 				<div className='pr-title' id={index % 2 === 0 && "pr-title-left"}>
@@ -23,11 +30,14 @@ export default function Card({ item, index }) {
 				</div>
 				<div className='pr-links' id={index % 2 === 0 && "pr-links-left"}>
 					<span>
-						<GitHubIcon />
+						<ExternalLink style={Styles.link} href={item.git_link} ><GitHubIcon /></ExternalLink>
 					</span>
 					<span>
-						<OpenInNewIcon />
+						<ExternalLink style={Styles.link} href={item.demo_link} ><OpenInNewIcon /></ExternalLink>
 					</span>
+					{item.yt_link?.length > 0 && <span>
+						<ExternalLink style={Styles.link} href={item.yt_link} ><YouTubeIcon /></ExternalLink>
+					</span>}
 				</div>
 			</div>
 		</div>

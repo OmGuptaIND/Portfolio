@@ -9,3 +9,7 @@ body{
   background-color: var(--main);
   color: var(--text);
 }
+link{
+  text-decoration: none;
+  color: inherit;
+}

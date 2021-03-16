@@ -10,7 +10,7 @@ export default function Tile({item, index}) {
     return (
         <div className='tl'>
             <div className='img'>
-                <img src = {Image} alt = 'err' />
+                <img src = {item.imgURL} alt = 'err' />
                 <div className="image__cover" />
             
             <div className='tl-data'>

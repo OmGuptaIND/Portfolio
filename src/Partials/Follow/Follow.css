@@ -21,6 +21,6 @@
     cursor: pointer;
 }
 .social_margin{
-    height: 35vh;
+    height: 40vh;
     border-left:1px solid var(--text2) ;
 }
