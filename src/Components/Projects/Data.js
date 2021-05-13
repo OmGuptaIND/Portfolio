@@ -6,9 +6,10 @@ const data = [
 		desc:
 			"This Portfolio website which I made is one of the best I have made so far made with ReactJS here you can add or delete the post dynamically styled with material-UI and custom CSS components fully responsive and made with care ",
 		tech: ["ReactJS", "HTML", "CSS"],
-		git_link: "",
-		demo_link: "",
+		git_link: "https://github.com/OmGuptaIND/Portfolio-v3.0",
+		demo_link: "https://60507bc6fc1f0790e2f18cf9--goofy-davinci-3f5c1c.netlify.app/",
 		yt_link:"",
+		imgURL:"https://raw.githubusercontent.com/OmGuptaIND/Portfolio-v3.0/master/Screenshot%202021-03-16%20at%203.02.23%20PM.png"
 	},
 	{
 		_id: Math.random().toString(),
